@@ -1,2 +1,1 @@
-"# aws-devops-mini-project-1" 
-.
+"# aws-devops-mini-project-1"
