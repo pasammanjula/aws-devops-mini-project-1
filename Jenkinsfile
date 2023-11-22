@@ -10,22 +10,22 @@ pipeline {
 
     stage('validate') {
       steps {
-        "sh mvn validate"
+        "mvn validate"
       }
     }
     stage('compile') {
       steps {
-        "sh mvn compile"
+        "mvn compile"
       }
     }
     stage('test') {
       steps {
-        "sh mvn test"
+        "mvn test"
       }
     }
     stage('deploy') {
       steps {
-        "sh mvn package"
+        "mvn package"
       }
     }
   }
